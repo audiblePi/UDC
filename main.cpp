@@ -2,6 +2,7 @@
 #include "UnitDiskCoverCenters.h"
 #include "UnitDiskCoverUnitGrid.h"
 #include "BiniazEtAls.h"
+#include "LRUDC.h"
 #include "CgalComponents.h"
 
 template<class Algorithm>
@@ -37,13 +38,19 @@ int main() {
     cin >> showOutput;
 
     points.reserve(numPoints);
+
     Random_points_in_square_2<Point,Creator> g1(graphSize);
-    std::copy_n(g1, numPoints, back_inserter(points));
+    std::copy_n(g1, numPoints/2, back_inserter(points));
+
+    Random_points_in_disc_2<Point,Creator> g2(30.0);
+    std::copy_n(g2, numPoints/2, back_inserter(points));
+
     cout << endl << "Point generation completed" << endl << endl;
 
-    run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
-    run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
-    run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
+    //run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
+    //run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
+    //run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
+    run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, "LRUDC");
 
     return EXIT_SUCCESS;
 }

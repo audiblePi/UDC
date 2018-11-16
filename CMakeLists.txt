@@ -46,7 +46,9 @@ add_executable(
 	src/UnitDiskCoverCenters.cpp 
 	src/UnitDiskCoverPrinter.cpp 
 	src/UnitDiskCoverUnitGrid.cpp
-	src/BiniazEtAls.cpp)
+	src/BiniazEtAls.cpp
+	src/LRUDC.cpp
+)
 
 add_to_cached_list( CGAL_EXECUTABLE_TARGETS executable )
 
