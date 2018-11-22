@@ -2,22 +2,6 @@
 #include "CgalComponents.h"
 #include <math.h> 
 
-/**
-Sort By X
-sweepLine SL = P(0) - Something
-endingPoint E = P.end()
-While i < E
-	Slice [ SL : SL + i * sqrt(3) ]
-	Restriction Line L = SL + sqrt(3) / 2 
-	Sort Points in Slice by Y
-	For Each Point in Slice
-		If Uncovered
-			Place a Unit Circle U with center P
-			Find Intersection Points of U with SL
-			Place Unit Circle U at Lowest Intersection Point
-	i += SL + i * sqrt(3)	
-**/
-
 struct sortByX {
 	bool operator()(const Point &p1, const Point &p2) { 
 		return (p1.x() < p2.x()); 
@@ -31,51 +15,59 @@ struct sortByY {
 };
 
 LRUDC::LRUDC(vector<Point> &Points, vector<Point> &unitDiskCenters){
-    // resort by y
     sort(Points.begin(), Points.end(), sortByX());
 
     int sliceIndex = 0;
     double sweepLine = Points[sliceIndex].x();
-    double endingPoint = Points.back().x();
-
-    //build slices
-    //sort each sub array strip
 
     // for each slice
-    while ( sweepLine < endingPoint ) {
-    	vector<Point> slice;
-		
-    	//build slice
-    	for ( long unsigned int i = 0; i < Points.size(); i++ ) {			
-			if ( Points[i].x() >= sweepLine && Points[i].x() < sweepLine + sqrt(3.0) ) {
-				slice.push_back(Points[i]);
+    while (sweepLine < Points.back().x()){
+		//cout << endl << ">>> sweepLine: " << sweepLine << ", sliceIndex: " << sliceIndex << endl;
+    	
+    	//find the points in this slice
+    	for (int currentIndex = sliceIndex; Points[currentIndex].x() <= Points.back().x(); currentIndex++) {			
+			//cout << "point currentIndex: " << Points[currentIndex].x() << ", " << Points[currentIndex].y() << " -> boundary: " << sweepLine + sqrt(3.0) << endl;
+
+			if ( (Points[currentIndex].x() >= sweepLine && Points[currentIndex].x() < sweepLine + sqrt(3.0)) ) {
+				//cout << " Slice Points: " << Points[currentIndex].x() << ", " << Points[currentIndex].y() << endl; 	
+			} 
+			else {
+				if (sliceIndex != currentIndex) {
+					//cout << "slice is done: " << sliceIndex << " to " << currentIndex << endl;
+					
+					sort(Points.begin() + sliceIndex, Points.begin() + currentIndex, sortByY());
+					bool firstInSlice = true;
+					double restrictionLine = sweepLine + sqrt(3.0) / 2.0;
+					double nextDiscCenter;
+
+					for(int j=sliceIndex; j < currentIndex; j++) {
+						//cout << " Slice Points: " << Points[j].x() << ", " << Points[j].y() << endl; 			
+
+						// find intersections with restrictionLine
+						double y = sqrt ( 1 - pow(restrictionLine - Points[j].x(), 2.0) );
+
+						if (firstInSlice){
+							nextDiscCenter = Points[j].y() - (sqrt (1 - pow(restrictionLine - Points[sliceIndex].x(), 2.0)));
+							firstInSlice = false;
+						}
+
+						//if there is no overlap, place disc at last center
+						if ((Points[j].y() + y < nextDiscCenter)) {
+							unitDiskCenters.push_back(Point( restrictionLine, nextDiscCenter ));
+							nextDiscCenter = Points[j].y() - y;
+						}
+
+						//if this is the last point, place disc at last center
+						if (j+1 == currentIndex) {
+							unitDiskCenters.push_back(Point( restrictionLine, nextDiscCenter ));
+						}
+					}
+				}
+				sliceIndex = currentIndex;
+				break;
 			}
 		}
 
-		// sort then process
-		// if we use python dont need individual objects
-		if (slice.size() > 0){
-   			Point p(sweepLine + sqrt(3.0) / 2.0, 1000000);
-   			Point q(sweepLine + sqrt(3.0) / 2.0, -1000000);
-   			Line restrictionLine( p, q );
-
-   			sort(Points.begin(), Points.end(), sortByY());
-
-			for (Point p : slice) {
-				Circle tempDisc(p, 1, CGAL::COUNTERCLOCKWISE);
-				
-			    vector<IntersectionResult> result;
-			    CGAL::intersection(restrictionLine, tempDisc, std::back_inserter(result));
-
-				//unitDiskCenters.push_back(c);
-			}
-		}
-
-		slice.clear();
     	sweepLine += sqrt(3.0);
     }
 }
-
-
-
-

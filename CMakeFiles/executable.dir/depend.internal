@@ -6,11 +6,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -18,7 +13,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -74,24 +68,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -102,12 +78,8 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -224,7 +196,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -251,8 +222,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -268,9 +237,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -369,7 +335,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -430,7 +395,6 @@ CMakeFiles/executable.dir/main.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
@@ -2379,11 +2343,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -2391,7 +2350,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -2447,24 +2405,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -2475,12 +2415,8 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -2597,7 +2533,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -2624,8 +2559,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -2641,9 +2574,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -2742,7 +2672,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -2803,7 +2732,6 @@ CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
@@ -4748,11 +4676,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -4760,7 +4683,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -4816,24 +4738,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -4844,12 +4748,8 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -4966,7 +4866,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -4993,8 +4892,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -5010,9 +4907,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -5111,7 +5005,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -5172,7 +5065,6 @@ CMakeFiles/executable.dir/src/LRUDC.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
@@ -7117,11 +7009,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -7129,7 +7016,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -7185,24 +7071,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -7213,12 +7081,8 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -7335,7 +7199,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -7362,8 +7225,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -7379,9 +7240,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -7480,7 +7338,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -7541,7 +7398,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
@@ -9486,11 +9342,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -9498,7 +9349,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -9554,24 +9404,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -9582,12 +9414,8 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -9704,7 +9532,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -9731,8 +9558,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -9748,9 +9573,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -9849,7 +9671,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -9910,7 +9731,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h
@@ -11855,11 +11675,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Aff_transformation_2.h
  /usr/local/include/CGAL/Aff_transformation_3.h
  /usr/local/include/CGAL/Algebraic_extension_traits.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/function_objects_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_comparison_root_for_circles_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomial_1_2_and_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles/internal_functions_on_roots_and_polynomials_2_2.h
- /usr/local/include/CGAL/Algebraic_kernel_for_circles_2_2.h
  /usr/local/include/CGAL/Algebraic_structure_traits.h
  /usr/local/include/CGAL/Arithmetic_kernel/Arithmetic_kernel_base.h
  /usr/local/include/CGAL/Bbox_2.h
@@ -11867,7 +11682,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Bigfloat_interval_traits.h
  /usr/local/include/CGAL/CC_safe_handle.h
  /usr/local/include/CGAL/Cache.h
- /usr/local/include/CGAL/Cartesian.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_2.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_3.h
  /usr/local/include/CGAL/Cartesian/Aff_transformation_rep_2.h
@@ -11923,24 +11737,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Circle_2_Circle_2_intersection.h
  /usr/local/include/CGAL/Circle_2_Line_2_intersection.h
  /usr/local/include/CGAL/Circle_3.h
- /usr/local/include/CGAL/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Circular_arc_point_2.h
- /usr/local/include/CGAL/Circular_kernel_2/Intersection_traits.h
- /usr/local/include/CGAL/Circular_kernel_2/Line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/function_objects_polynomial_circular.h
- /usr/local/include/CGAL/Circular_kernel_2/interface_macros.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circle_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_circular_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_2.h
- /usr/local/include/CGAL/Circular_kernel_2/internal_functions_on_line_arc_2.h
- /usr/local/include/CGAL/Circular_kernel_2/intersection_line_2_circle_2_map.h
- /usr/local/include/CGAL/Circular_kernel_intersections.h
- /usr/local/include/CGAL/Circular_kernel_type_equality_wrapper.h
  /usr/local/include/CGAL/Coercion_traits.h
  /usr/local/include/CGAL/Compact_container.h
  /usr/local/include/CGAL/Conic_2.h
@@ -11951,12 +11747,8 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Direction_3.h
  /usr/local/include/CGAL/Dummy_tds_2.h
  /usr/local/include/CGAL/Enum_converter.h
- /usr/local/include/CGAL/Exact_circular_kernel_2.h
  /usr/local/include/CGAL/Exact_predicates_inexact_constructions_kernel.h
  /usr/local/include/CGAL/FPU.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/bbox_filtered_predicates.h
- /usr/local/include/CGAL/Filtered_bbox_circular_kernel_2/interface_macros.h
  /usr/local/include/CGAL/Filtered_kernel.h
  /usr/local/include/CGAL/Filtered_kernel_fwd.h
  /usr/local/include/CGAL/Filtered_predicate.h
@@ -12073,7 +11865,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Line_2_Line_2_intersection.h
  /usr/local/include/CGAL/Line_2_Triangle_2_intersection.h
  /usr/local/include/CGAL/Line_3.h
- /usr/local/include/CGAL/Line_arc_2.h
  /usr/local/include/CGAL/MP_Float.h
  /usr/local/include/CGAL/MP_Float_arithmetic_kernel.h
  /usr/local/include/CGAL/MP_Float_impl.h
@@ -12100,8 +11891,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Polygon_2/Polygon_2_simplicity.h
  /usr/local/include/CGAL/Polygon_2/polygon_assertions.h
  /usr/local/include/CGAL/Polygon_2_algorithms.h
- /usr/local/include/CGAL/Polynomials_1_2.h
- /usr/local/include/CGAL/Polynomials_2_2.h
  /usr/local/include/CGAL/Profile_counter.h
  /usr/local/include/CGAL/Quotient.h
  /usr/local/include/CGAL/Quotient_fwd.h
@@ -12117,9 +11906,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/Ray_3.h
  /usr/local/include/CGAL/Real_embeddable_traits.h
  /usr/local/include/CGAL/Residue.h
- /usr/local/include/CGAL/Root_for_circles_2_2.h
- /usr/local/include/CGAL/Root_of_traits.h
- /usr/local/include/CGAL/Root_of_traits_specializations.h
  /usr/local/include/CGAL/Scalar_factor_traits.h
  /usr/local/include/CGAL/Segment_2.h
  /usr/local/include/CGAL/Segment_2_Iso_rectangle_2_intersection.h
@@ -12218,7 +12004,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/function_objects.h
  /usr/local/include/CGAL/functional.h
  /usr/local/include/CGAL/generators.h
- /usr/local/include/CGAL/global_functions_circular_kernel_2.h
  /usr/local/include/CGAL/gmp.h
  /usr/local/include/CGAL/gmpxx.h
  /usr/local/include/CGAL/gmpxx_coercion_traits.h
@@ -12279,7 +12064,6 @@ CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o
  /usr/local/include/CGAL/leda_rational.h
  /usr/local/include/CGAL/leda_real.h
  /usr/local/include/CGAL/license.h
- /usr/local/include/CGAL/license/Circular_kernel_2.h
  /usr/local/include/CGAL/license/TDS_2.h
  /usr/local/include/CGAL/license/Triangulation_2.h
  /usr/local/include/CGAL/license/lgpl.h

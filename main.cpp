@@ -47,9 +47,9 @@ int main() {
 
     cout << endl << "Point generation completed" << endl << endl;
 
-    //run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
-    //run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
-    //run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
+    run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
+    run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
+    run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
     run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, "LRUDC");
 
     return EXIT_SUCCESS;
