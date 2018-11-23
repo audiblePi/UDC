@@ -48,6 +48,7 @@ add_executable(
 	src/UnitDiskCoverUnitGrid.cpp
 	src/BiniazEtAls.cpp
 	src/LRUDC.cpp
+	src/LRUDC_Shift.cpp
 )
 
 add_to_cached_list( CGAL_EXECUTABLE_TARGETS executable )

@@ -579,6 +579,33 @@ src/LRUDC.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LRUDC.cpp.s
 .PHONY : src/LRUDC.cpp.s
 
+src/LRUDC_Shift.o: src/LRUDC_Shift.cpp.o
+
+.PHONY : src/LRUDC_Shift.o
+
+# target to build an object file
+src/LRUDC_Shift.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o
+.PHONY : src/LRUDC_Shift.cpp.o
+
+src/LRUDC_Shift.i: src/LRUDC_Shift.cpp.i
+
+.PHONY : src/LRUDC_Shift.i
+
+# target to preprocess a source file
+src/LRUDC_Shift.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.i
+.PHONY : src/LRUDC_Shift.cpp.i
+
+src/LRUDC_Shift.s: src/LRUDC_Shift.cpp.s
+
+.PHONY : src/LRUDC_Shift.s
+
+# target to generate assembly for a file
+src/LRUDC_Shift.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s
+.PHONY : src/LRUDC_Shift.cpp.s
+
 src/UnitDiskCoverCenters.o: src/UnitDiskCoverCenters.cpp.o
 
 .PHONY : src/UnitDiskCoverCenters.o
@@ -707,6 +734,9 @@ help:
 	@echo "... src/LRUDC.o"
 	@echo "... src/LRUDC.i"
 	@echo "... src/LRUDC.s"
+	@echo "... src/LRUDC_Shift.o"
+	@echo "... src/LRUDC_Shift.i"
+	@echo "... src/LRUDC_Shift.s"
 	@echo "... src/UnitDiskCoverCenters.o"
 	@echo "... src/UnitDiskCoverCenters.i"
 	@echo "... src/UnitDiskCoverCenters.s"

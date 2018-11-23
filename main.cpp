@@ -3,6 +3,7 @@
 #include "UnitDiskCoverUnitGrid.h"
 #include "BiniazEtAls.h"
 #include "LRUDC.h"
+#include "LRUDC_Shift.h"
 #include "CgalComponents.h"
 
 template<class Algorithm>
@@ -51,6 +52,7 @@ int main() {
     run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
     run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
     run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, "LRUDC");
+    run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, "LRUDC_Shift");
 
     return EXIT_SUCCESS;
 }
