@@ -17,12 +17,12 @@
 using namespace CGAL;
 
 typedef Exact_predicates_inexact_constructions_kernel K;
-typedef Delaunay_triangulation_2<K>			DelunayTriangulation;
-typedef K::Point_2                      	Point;
-typedef K::Segment_2                      	Segment;
-typedef Creator_uniform_2<double,Point> 	Creator;
+typedef Delaunay_triangulation_2<K>  DelunayTriangulation;
+typedef K::Point_2                       Point;
+typedef Creator_uniform_2<double,Point>  Creator;
 typedef DelunayTriangulation::Vertex_handle Vertex_handle;
-typedef Circle_2<K> 						Circle;
+typedef Circle_2<K> Circle;
+typedef Segment_2<K> Segment;
 
 using namespace std;
 
