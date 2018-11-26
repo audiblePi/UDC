@@ -26,18 +26,42 @@ void run(vector<Point>& points, vector<Point>& centers, string filename, bool sh
     }
 }
 
-int main() {
-    vector<Point> points, centersOfPlacedDisks;
-    int numPoints, graphSize;
-    bool showOutput;
+void loadFromFile(vector<Point> &points){
+    int count = 0;
+    int a;
+    double b, c;
+    ifstream inFile, runFile;
+    
+    inFile.open("data/world.tsp");
+    if (!inFile) {
+        cout << "Unable to open file";
+        exit(1); // terminate with error
+    }
+    
+    while (inFile >> a >> b >> c) {
+        count = count + 1;
+    }
 
-    cout << endl << "Number of points? : ";
-    cin >> numPoints;
-    cout << "Size of graph? : ";
-    cin >> graphSize;
-    cout << "Show output? (1/0): ";
-    cin >> showOutput;
+    inFile.close();
 
+    points.reserve(count);
+
+    inFile.open("data/world.tsp");
+    if (!inFile) {
+        cout << "Unable to open file";
+        exit(1); // terminate with error
+    }
+
+    while (inFile >> a >> b >> c) {
+        //cout << "Line = " << a << ": " << b << ", " << c << endl; 
+        Point p(b, c);
+        points.push_back(p);
+    }
+    
+    inFile.close();
+}
+
+void loadRandom(vector<Point> &points, int numPoints, int graphSize){
     points.reserve(numPoints);
 
     Random_points_in_square_2<Point,Creator> g1(graphSize);
@@ -45,8 +69,32 @@ int main() {
 
     Random_points_in_disc_2<Point,Creator> g2(30.0);
     std::copy_n(g2, numPoints/2, back_inserter(points));
+}
 
-    cout << endl << "Point generation completed" << endl << endl;
+int main() {
+    vector<Point> points, centersOfPlacedDisks;
+    int numPoints, graphSize;
+    bool useFile, showOutput;
+
+    cout << "Load from file (world.tsp)? (1/0): ";
+    cin >> useFile;
+
+    if (useFile){
+        loadFromFile(points);
+    }
+    else {
+        cout << endl << "Number of points? : ";
+        cin >> numPoints;
+        cout << "Size of graph? : ";
+        cin >> graphSize;
+        loadRandom(points, numPoints, graphSize);
+    }
+
+    cout << endl << "Point generation completed" << points.size() << endl;
+
+    cout << "Show output? (1/0): ";
+    cin >> showOutput;
+
 
     run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
     run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");

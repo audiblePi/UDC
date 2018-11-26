@@ -5,6 +5,9 @@
 #include <algorithm>
 #include <ctime>
 #include <unordered_set>
+#include <iostream>
+#include <iomanip>
+#include <fstream>
 
 /**********************CGAL headers files**************************/
 #include <CGAL/point_generators_2.h>
