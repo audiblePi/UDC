@@ -3,11 +3,12 @@
 
 using namespace std;
 
-UnitDiskCoverPrinter::UnitDiskCoverPrinter(vector<Point> &P, vector<Point> &centersOfPlacedDisks, double radiusOfDisks, string outputFileName) {
+UnitDiskCoverPrinter::UnitDiskCoverPrinter(vector<Point> &P, vector<Point> &centersOfPlacedDisks, double radiusOfDisks, string outputFileName, bool osPrinter) {
     pointSet = P;
     this->centersOfPlacedDisks = centersOfPlacedDisks;
     r = radiusOfDisks;
     fileName = outputFileName;
+    os = osPrinter;
 }
 
 double const radiusOfPoints = 0.05;
@@ -32,7 +33,9 @@ void UnitDiskCoverPrinter::displayPDF() {
     string command = "pdflatex " + fName + " > /dev/null";
     system(command.c_str());
     cout << "PDF generation terminated...\n";
-
-    command = "open -a Preview " + fileName + ".pdf &";
+    if(os)
+        command = "open -a Preview " + fileName + ".pdf &";
+    else
+        command = "atril " + fileName + ".pdf &";
     system(command.c_str());
 }

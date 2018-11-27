@@ -77,3 +77,80 @@
 	"UnitDiskCoverUnitGrid.h"
 	"CgalComponents.h"
 
+1543341875 source:/home/ronald/UDC/main.cpp
+	"UnitDiskCoverPrinter.h"
+	"UnitDiskCoverCenters.h"
+	"UnitDiskCoverUnitGrid.h"
+	"BiniazEtAls.h"
+	"LRUDC.h"
+	"LRUDC_Shift.h"
+	"LinesAlgorithm.h"
+	"CgalComponents.h"
+
+1543341720 /home/ronald/UDC/include/UnitDiskCoverPrinter.h
+	"CgalComponents.h"
+	<vector>
+
+1543272313 /home/ronald/UDC/include/CgalComponents.h
+	<vector>
+	<algorithm>
+	<ctime>
+	<unordered_set>
+	<iostream>
+	<iomanip>
+	<fstream>
+	<CGAL/point_generators_2.h>
+	<CGAL/algorithm.h>
+	<CGAL/random_selection.h>
+	<CGAL/Exact_predicates_inexact_constructions_kernel.h>
+	<CGAL/Delaunay_triangulation_2.h>
+
+1542989497 /home/ronald/UDC/include/UnitDiskCoverCenters.h
+	"CgalComponents.h"
+
+1542989497 /home/ronald/UDC/include/UnitDiskCoverUnitGrid.h
+	"CgalComponents.h"
+
+1542989497 /home/ronald/UDC/include/BiniazEtAls.h
+	"CgalComponents.h"
+
+1542989497 /home/ronald/UDC/include/LRUDC.h
+	"CgalComponents.h"
+
+1542989497 /home/ronald/UDC/include/LRUDC_Shift.h
+	"CgalComponents.h"
+
+1542989500 source:/home/ronald/UDC/src/BiniazEtAls.cpp
+	"BiniazEtAls.h"
+	"CgalComponents.h"
+	<math.h>
+
+1542989500 source:/home/ronald/UDC/src/LRUDC.cpp
+	"LRUDC.h"
+	"CgalComponents.h"
+	<math.h>
+
+1542989500 source:/home/ronald/UDC/src/LRUDC_Shift.cpp
+	"LRUDC_Shift.h"
+	"CgalComponents.h"
+	<math.h>
+
+1542989500 source:/home/ronald/UDC/src/UnitDiskCoverCenters.cpp
+	"UnitDiskCoverCenters.h"
+	"CgalComponents.h"
+
+1542989500 source:/home/ronald/UDC/src/UnitDiskCoverUnitGrid.cpp
+	"UnitDiskCoverUnitGrid.h"
+	"CgalComponents.h"
+
+1543341900 source:/home/ronald/UDC/src/UnitDiskCoverPrinter.cpp
+	"UnitDiskCoverPrinter.h"
+	<iostream>
+
+1543340687 /home/ronald/UDC/include/LinesAlgorithm.h
+	"CgalComponents.h"
+
+1543340920 source:/home/ronald/UDC/src/LinesAlgorithm.cpp
+	"LinesAlgorithm.h"
+	"CgalComponents.h"
+

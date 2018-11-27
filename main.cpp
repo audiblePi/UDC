@@ -4,10 +4,11 @@
 #include "BiniazEtAls.h"
 #include "LRUDC.h"
 #include "LRUDC_Shift.h"
+#include "LinesAlgorithm.h"
 #include "CgalComponents.h"
 
 template<class Algorithm>
-void run(vector<Point>& points, vector<Point>& centers, string filename, bool show, string name){
+void run(vector<Point>& points, vector<Point>& centers, string filename, bool show, bool os, string name){
     clock_t begin, end;
     double elapsed_secs;
 
@@ -19,9 +20,9 @@ void run(vector<Point>& points, vector<Point>& centers, string filename, bool sh
     elapsed_secs = double(end - begin) / CLOCKS_PER_SEC;
     cout << "|P|: " << points.size() << endl << "Number of disks placed: " << centers.size() << endl;
     cout << "Time taken: " << elapsed_secs << endl;
-    
+
     if (show) {
-        UnitDiskCoverPrinter printer(points, centers, 1, filename);
+        UnitDiskCoverPrinter printer(points, centers, 1, filename, os);
         printer.displayPDF();
     }
 }
@@ -31,13 +32,13 @@ void loadFromFile(vector<Point> &points){
     int a;
     double b, c;
     ifstream inFile, runFile;
-    
+
     inFile.open("data/world.tsp");
     if (!inFile) {
         cout << "Unable to open file";
         exit(1); // terminate with error
     }
-    
+
     while (inFile >> a >> b >> c) {
         count = count + 1;
     }
@@ -53,11 +54,11 @@ void loadFromFile(vector<Point> &points){
     }
 
     while (inFile >> a >> b >> c) {
-        //cout << "Line = " << a << ": " << b << ", " << c << endl; 
+        //cout << "Line = " << a << ": " << b << ", " << c << endl;
         Point p(b, c);
         points.push_back(p);
     }
-    
+
     inFile.close();
 }
 
@@ -74,7 +75,7 @@ void loadRandom(vector<Point> &points, int numPoints, int graphSize){
 int main() {
     vector<Point> points, centersOfPlacedDisks;
     int numPoints, graphSize;
-    bool useFile, showOutput;
+    bool useFile, showOutput, osPrinter;
 
     cout << "Load from file (world.tsp)? (1/0): ";
     cin >> useFile;
@@ -95,12 +96,16 @@ int main() {
     cout << "Show output? (1/0): ";
     cin >> showOutput;
 
+    cout << "Mac(1) or Linux(0)?: ";
+    cin >> osPrinter;
 
-    run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, "Centers");
-    run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, "Grids");
-    run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, "BiniazEtAls");
-    run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, "LRUDC");
-    run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, "LRUDC_Shift");
+
+    run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, osPrinter, "Centers");
+    run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, osPrinter, "Grids");
+    run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, osPrinter, "BiniazEtAls");
+    run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, osPrinter, "LRUDC");
+    run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, osPrinter, "LRUDC_Shift");
+    run<LinesAlgorithm>(points, centersOfPlacedDisks, "output_linesalgorithm", showOutput, osPrinter, "LinesAlgorithm");
 
     return EXIT_SUCCESS;
 }

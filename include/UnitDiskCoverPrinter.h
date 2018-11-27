@@ -13,9 +13,10 @@ class UnitDiskCoverPrinter
         vector<Point> pointSet, centersOfPlacedDisks;
         double r = 0.0;
         string fileName;
+        bool os = true;
 
     public:
-        UnitDiskCoverPrinter(vector<Point> &P, vector<Point> &centersOfPlacedDisks, double radiusOfDisks, string outputFileName);
+        UnitDiskCoverPrinter(vector<Point> &P, vector<Point> &centersOfPlacedDisks, double radiusOfDisks, string outputFileName, bool osPrinter);
         void displayPDF();
 };
 

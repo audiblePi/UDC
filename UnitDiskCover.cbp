@@ -36,11 +36,17 @@
 		</Compiler>
 		<Unit filename="include/BiniazEtAls.h" />
 		<Unit filename="include/CgalComponents.h" />
+		<Unit filename="include/LRUDC.h" />
+		<Unit filename="include/LRUDC_Shift.h" />
+		<Unit filename="include/LinesAlgorithm.h" />
 		<Unit filename="include/UnitDiskCoverCenters.h" />
 		<Unit filename="include/UnitDiskCoverPrinter.h" />
 		<Unit filename="include/UnitDiskCoverUnitGrid.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/BiniazEtAls.cpp" />
+		<Unit filename="src/LRUDC.cpp" />
+		<Unit filename="src/LRUDC_Shift.cpp" />
+		<Unit filename="src/LinesAlgorithm.cpp" />
 		<Unit filename="src/UnitDiskCoverCenters.cpp" />
 		<Unit filename="src/UnitDiskCoverPrinter.cpp" />
 		<Unit filename="src/UnitDiskCoverUnitGrid.cpp" />

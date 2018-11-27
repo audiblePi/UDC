@@ -7,7 +7,7 @@
 class LinesAlgorithm
 {
     public:
-        LinesAlgorithm(vector<Point> &P, vector<Point> &C, double shift);
+        LinesAlgorithm(vector<Point> &P, vector<Point> &C);
 };
 
 #endif // LINESALGORITHM_H

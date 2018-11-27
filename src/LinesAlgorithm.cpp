@@ -1,8 +1,8 @@
 #include "LinesAlgorithm.h"
 #include "CgalComponents.h"
 
-LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C, double shift) {
-
+LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C) {
+    double shift = sqrt(3.0);
     vector<Segment> Segments;
 
     sort(P.begin(), P.end(), [](const Point& pi, const Point& pj) {
@@ -45,13 +45,15 @@ LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C, double shift)
         sort(Segments.begin(), Segments.end(), [](Segment& si, Segment& sj) {
                                                     return si.max() > sj.max();
                             });
+
         for(int i = 0; i < Segments.size(); i++){
-            if(Segments[i].min() < Segments[i+1].max()){
+            C.push_back(Segments[i].min());
+            /*if(Segments[i].min() < Segments[i+1].max()){
                 C.push_back(midpoint(Segments[i].min(), Segments[i+1].max()));
                 Segments.erase(Segments.begin() + i);
             }else{
                 C.push_back(midpoint(Segments[i].max(), Segments[i].min()));
-            }
+            }*/
         }
         constant++;
         counter += 2;
