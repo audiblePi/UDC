@@ -5,6 +5,8 @@
 #include "LRUDC.h"
 #include "LRUDC_Shift.h"
 #include "LinesAlgorithm.h"
+#include "LinesAlgorithm_Shift.h"
+#include "LiuLu.h"
 #include "CgalComponents.h"
 
 template<class Algorithm>
@@ -106,6 +108,8 @@ int main() {
     run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, osPrinter, "LRUDC");
     run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, osPrinter, "LRUDC_Shift");
     run<LinesAlgorithm>(points, centersOfPlacedDisks, "output_linesalgorithm", showOutput, osPrinter, "LinesAlgorithm");
+    run<LiuLu>(points, centersOfPlacedDisks, "output_liulu", showOutput, osPrinter, "LiuLu");
+    //run<LinesAlgorithm_Shift>(points, centersOfPlacedDisks, "output_linesalgorithm_shift", showOutput, osPrinter, "LinesAlgorithm_Shift");
 
     return EXIT_SUCCESS;
 }

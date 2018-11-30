@@ -77,7 +77,7 @@
 	"UnitDiskCoverUnitGrid.h"
 	"CgalComponents.h"
 
-1543341875 source:/home/ronald/UDC/main.cpp
+1543526142 source:/home/ronald/UDC/main.cpp
 	"UnitDiskCoverPrinter.h"
 	"UnitDiskCoverCenters.h"
 	"UnitDiskCoverUnitGrid.h"
@@ -85,6 +85,7 @@
 	"LRUDC.h"
 	"LRUDC_Shift.h"
 	"LinesAlgorithm.h"
+	"LinesAlgorithm_Shift.h"
 	"CgalComponents.h"
 
 1543341720 /home/ronald/UDC/include/UnitDiskCoverPrinter.h
@@ -147,10 +148,24 @@
 	"UnitDiskCoverPrinter.h"
 	<iostream>
 
-1543340687 /home/ronald/UDC/include/LinesAlgorithm.h
+1543509581 /home/ronald/UDC/include/LinesAlgorithm.h
 	"CgalComponents.h"
 
-1543340920 source:/home/ronald/UDC/src/LinesAlgorithm.cpp
+1543525727 source:/home/ronald/UDC/src/LinesAlgorithm.cpp
 	"LinesAlgorithm.h"
+	"CgalComponents.h"
+
+1543509554 /home/ronald/UDC/include/LinesAlgorithm_Shift.h
+	"CgalComponents.h"
+
+1543525727 source:/home/ronald/UDC/src/LinesAlgorithm_Shift.cpp
+	"LinesAlgorithm_Shift.h"
+	"CgalComponents.h"
+
+1543528073 source:/home/ronald/UDC/src/LiuLu.cpp
+	"LiuLu.h"
+	"CgalComponents.h"
+
+1543528122 /home/ronald/UDC/include/LiuLu.h
 	"CgalComponents.h"
 

@@ -2,7 +2,6 @@
 #include "CgalComponents.h"
 
 LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C) {
-    double shift = sqrt(3.0);
     vector<Segment> Segments;
 
     sort(P.begin(), P.end(), [](const Point& pi, const Point& pj) {
@@ -13,17 +12,14 @@ LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C) {
     double counter = -35;
     int index = 0;
     int length = P.size();
-    while(P.front().x() > constant*shift){
+    while(P.front().x() > constant*sqrt(3.0)){
         constant++;
         counter += 2;
     }
-    while(sorted == false){
+    while(!(constant+1*sqrt(3.0) >= P.back().x())){
         Segments.clear();
-        if(constant*shift >= P.back().x()){
-            sorted = true;
-        }
         for(int i = index; i <= length; ++i){
-            if(!(P[i].x() <= constant*shift && P[i].x() >= (constant - 1)*shift)){
+            if(!(P[i].x() <= constant*sqrt(3.0) && P[i].x() >= (constant - 1)*sqrt(3.0))){
                 sort(P.begin() + index, P.begin() + i, [](const Point& pi, const Point& pj) {
                                             return pi.y() < pj.y();
                                     });
@@ -31,7 +27,7 @@ LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C) {
             }
         }
         for(int j = index; j < length; j++){
-            Point onRestrLine((counter*shift/2), P[j].y());
+            Point onRestrLine((counter*sqrt(3.0)/2), P[j].y());
             double distance = sqrt(squared_distance(P[j], onRestrLine));
             double pointLength = sqrt(1-pow(distance, 2));
 
@@ -47,13 +43,13 @@ LinesAlgorithm::LinesAlgorithm(vector<Point> &P, vector<Point> &C) {
                             });
 
         for(int i = 0; i < Segments.size(); i++){
-            C.push_back(Segments[i].min());
-            /*if(Segments[i].min() < Segments[i+1].max()){
+            if(Segments[i].min() < Segments[i+1].max()){
                 C.push_back(midpoint(Segments[i].min(), Segments[i+1].max()));
-                Segments.erase(Segments.begin() + i);
+                Segments.erase(Segments.begin() + i+1);
+                i--;
             }else{
                 C.push_back(midpoint(Segments[i].max(), Segments[i].min()));
-            }*/
+            }
         }
         constant++;
         counter += 2;
