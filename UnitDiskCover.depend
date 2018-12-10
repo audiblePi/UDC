@@ -77,7 +77,7 @@
 	"UnitDiskCoverUnitGrid.h"
 	"CgalComponents.h"
 
-1543526142 source:/home/ronald/UDC/main.cpp
+1544465306 source:/home/ronald/UDC/main.cpp
 	"UnitDiskCoverPrinter.h"
 	"UnitDiskCoverCenters.h"
 	"UnitDiskCoverUnitGrid.h"
@@ -86,13 +86,15 @@
 	"LRUDC_Shift.h"
 	"LinesAlgorithm.h"
 	"LinesAlgorithm_Shift.h"
+	"LiuLu.h"
+	"SevenCircles.h"
 	"CgalComponents.h"
 
-1543341720 /home/ronald/UDC/include/UnitDiskCoverPrinter.h
+1543565363 /home/ronald/UDC/include/UnitDiskCoverPrinter.h
 	"CgalComponents.h"
 	<vector>
 
-1543272313 /home/ronald/UDC/include/CgalComponents.h
+1543565363 /home/ronald/UDC/include/CgalComponents.h
 	<vector>
 	<algorithm>
 	<ctime>
@@ -106,66 +108,74 @@
 	<CGAL/Exact_predicates_inexact_constructions_kernel.h>
 	<CGAL/Delaunay_triangulation_2.h>
 
-1542989497 /home/ronald/UDC/include/UnitDiskCoverCenters.h
+1543565363 /home/ronald/UDC/include/UnitDiskCoverCenters.h
 	"CgalComponents.h"
 
-1542989497 /home/ronald/UDC/include/UnitDiskCoverUnitGrid.h
+1543565363 /home/ronald/UDC/include/UnitDiskCoverUnitGrid.h
 	"CgalComponents.h"
 
-1542989497 /home/ronald/UDC/include/BiniazEtAls.h
+1543565363 /home/ronald/UDC/include/BiniazEtAls.h
 	"CgalComponents.h"
 
-1542989497 /home/ronald/UDC/include/LRUDC.h
+1543565363 /home/ronald/UDC/include/LRUDC.h
 	"CgalComponents.h"
 
-1542989497 /home/ronald/UDC/include/LRUDC_Shift.h
+1543565363 /home/ronald/UDC/include/LRUDC_Shift.h
 	"CgalComponents.h"
 
-1542989500 source:/home/ronald/UDC/src/BiniazEtAls.cpp
+1544458077 source:/home/ronald/UDC/src/BiniazEtAls.cpp
 	"BiniazEtAls.h"
 	"CgalComponents.h"
 	<math.h>
 
-1542989500 source:/home/ronald/UDC/src/LRUDC.cpp
+1543565363 source:/home/ronald/UDC/src/LRUDC.cpp
 	"LRUDC.h"
 	"CgalComponents.h"
 	<math.h>
 
-1542989500 source:/home/ronald/UDC/src/LRUDC_Shift.cpp
+1543565363 source:/home/ronald/UDC/src/LRUDC_Shift.cpp
 	"LRUDC_Shift.h"
 	"CgalComponents.h"
 	<math.h>
 
-1542989500 source:/home/ronald/UDC/src/UnitDiskCoverCenters.cpp
+1543565363 source:/home/ronald/UDC/src/UnitDiskCoverCenters.cpp
 	"UnitDiskCoverCenters.h"
 	"CgalComponents.h"
 
-1542989500 source:/home/ronald/UDC/src/UnitDiskCoverUnitGrid.cpp
+1543565363 source:/home/ronald/UDC/src/UnitDiskCoverUnitGrid.cpp
 	"UnitDiskCoverUnitGrid.h"
 	"CgalComponents.h"
 
-1543341900 source:/home/ronald/UDC/src/UnitDiskCoverPrinter.cpp
+1543565363 source:/home/ronald/UDC/src/UnitDiskCoverPrinter.cpp
 	"UnitDiskCoverPrinter.h"
 	<iostream>
 
-1543509581 /home/ronald/UDC/include/LinesAlgorithm.h
+1543565363 /home/ronald/UDC/include/LinesAlgorithm.h
 	"CgalComponents.h"
 
-1543525727 source:/home/ronald/UDC/src/LinesAlgorithm.cpp
+1543565363 source:/home/ronald/UDC/src/LinesAlgorithm.cpp
 	"LinesAlgorithm.h"
 	"CgalComponents.h"
 
-1543509554 /home/ronald/UDC/include/LinesAlgorithm_Shift.h
+1543565363 /home/ronald/UDC/include/LinesAlgorithm_Shift.h
 	"CgalComponents.h"
 
-1543525727 source:/home/ronald/UDC/src/LinesAlgorithm_Shift.cpp
+1543565363 source:/home/ronald/UDC/src/LinesAlgorithm_Shift.cpp
 	"LinesAlgorithm_Shift.h"
 	"CgalComponents.h"
 
-1543528073 source:/home/ronald/UDC/src/LiuLu.cpp
+1543565363 source:/home/ronald/UDC/src/LiuLu.cpp
 	"LiuLu.h"
 	"CgalComponents.h"
 
-1543528122 /home/ronald/UDC/include/LiuLu.h
+1543565363 /home/ronald/UDC/include/LiuLu.h
 	"CgalComponents.h"
+
+1544471383 /home/ronald/UDC/include/SevenCircles.h
+	"CgalComponents.h"
+
+1544471933 source:/home/ronald/UDC/src/SevenCircles.cpp
+	"SevenCircles.h"
+	"CgalComponents.h"
+	<math.h>
 

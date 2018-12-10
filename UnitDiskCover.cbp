@@ -41,6 +41,7 @@
 		<Unit filename="include/LinesAlgorithm.h" />
 		<Unit filename="include/LinesAlgorithm_Shift.h" />
 		<Unit filename="include/LiuLu.h" />
+		<Unit filename="include/SevenCircles.h" />
 		<Unit filename="include/UnitDiskCoverCenters.h" />
 		<Unit filename="include/UnitDiskCoverPrinter.h" />
 		<Unit filename="include/UnitDiskCoverUnitGrid.h" />
@@ -51,6 +52,7 @@
 		<Unit filename="src/LinesAlgorithm.cpp" />
 		<Unit filename="src/LinesAlgorithm_Shift.cpp" />
 		<Unit filename="src/LiuLu.cpp" />
+		<Unit filename="src/SevenCircles.cpp" />
 		<Unit filename="src/UnitDiskCoverCenters.cpp" />
 		<Unit filename="src/UnitDiskCoverPrinter.cpp" />
 		<Unit filename="src/UnitDiskCoverUnitGrid.cpp" />

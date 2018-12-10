@@ -1,6 +1,6 @@
 #include "BiniazEtAls.h"
 #include "CgalComponents.h"
-#include <math.h> 
+#include <math.h>
 
 //sort the points
 //find the closest point in coveredPoints to point
@@ -9,13 +9,13 @@
 //remove the first point
 
 struct compareCircle {
-	bool operator()(const Circle &c1, const Circle &c2) { 
+	bool operator()(const Circle &c1, const Circle &c2) {
 		if (c1.center().x() == c2.center().x()){
-	    	return (c1.center().y() < c2.center().y()); 
+	    	return (c1.center().y() < c2.center().y());
 	    } else {
-		    return (c1.center().x() < c2.center().x()); 
+		    return (c1.center().x() < c2.center().x());
 		}
-	} 
+	}
 };
 
 
@@ -41,14 +41,14 @@ struct compareCircle {
 //     }
 // }
 
-// Point BiniazEtAls::findClosestNeighbor(Point &testPoint, vector<Point> &coveredPoints){	
+// Point BiniazEtAls::findClosestNeighbor(Point &testPoint, vector<Point> &coveredPoints){
 // 	Point closest;
 // 	int minDistance = -1;
 
 //    	//calculate distance to each point
 // 	for ( Point coveredPoint : coveredPoints ) {
 // 		int tmpDistance = squared_distance(testPoint, coveredPoint);
-		
+
 // 		if (tmpDistance < minDistance || minDistance == -1){
 // 			minDistance = tmpDistance;
 // 			closest = coveredPoint;
