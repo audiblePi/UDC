@@ -34,8 +34,9 @@ SevenCircles::SevenCircles(vector<Point> &Points, vector<Point> &unitDiskCenters
 	   		}
 	   		else{
                 Vertex_handle closestNeighbor2 = dT.nearest_vertex(point);
+                int distance = squared_distance(point, closestNeighbor2->point());
                 unitDiskCenters.push_back(closestNeighbor2->point());
-
+                delunayTriangulation.push_back(closestNeighbor2->point());
 	   		}
 	   	}
     }
@@ -77,7 +78,14 @@ void SevenCircles::coverPoint(Point point, vector<Point> &unitDiskCenters, Delun
 
 
     delunayTriangulation.insert(point);
-    //dT.insert(point);
+//    delunayTriangulation.insert(p2);
+//    delunayTriangulation.insert(p3);
+//    delunayTriangulation.insert(p4);
+//    delunayTriangulation.insert(p5);
+//    delunayTriangulation.insert(p6);
+//    delunayTriangulation.insert(p7);
+
+    dT.insert(point);
     dT.insert(p2);
     dT.insert(p3);
     dT.insert(p4);
