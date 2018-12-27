@@ -6,14 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.cpp
-SevenCircles.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.h
-CgalComponents.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/CgalComponents.h
-math.h
--
-
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.cpp
 SevenCircles2.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.h
@@ -26769,10 +26761,6 @@ CGAL/Exact_predicates_inexact_constructions_kernel.h
 -
 CGAL/Delaunay_triangulation_2.h
 -
-
-include/SevenCircles.h
-CgalComponents.h
-include/CgalComponents.h
 
 include/SevenCircles2.h
 CgalComponents.h

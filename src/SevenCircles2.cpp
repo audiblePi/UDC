@@ -3,7 +3,7 @@
 #include <math.h>
 
 SevenCircles2::SevenCircles2(vector<Point> &Points, vector<Point> &unitDiskCenters){
-    unordered_set< Node, Node_hash, Compare_node> hashTable;
+    unordered_map< Node, Node, Node_hash, Compare_node> hashTable;
 	DelunayTriangulation delunayTriangulation;
 	bool isEmptyTriangulation = true;
 
@@ -25,18 +25,18 @@ SevenCircles2::SevenCircles2(vector<Point> &Points, vector<Point> &unitDiskCente
 		Node key = {closestNeighbor->point(), true};
 		auto search = hashTable.find(key);
 		if( search != hashTable.end()){
-			hashTable.erase(search);	
-			hashTable.emplace(key);
+			search->second.active = true;
+			continue;
 		}
     }
 
-    for (Node node : hashTable){
-    	if (node.active)
-    		unitDiskCenters.push_back(node.p);
+    for (auto &node : hashTable){
+		if (node.second.active)
+    		unitDiskCenters.push_back(node.second.p);
     }
 }
 
-void SevenCircles2::coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_set<Node, Node_hash, Compare_node> &hashTable){
+void SevenCircles2::coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_map<Node, Node, Node_hash, Compare_node> &hashTable){
 	vector<Point> newPoints;
     bool center = true;
 
@@ -51,11 +51,12 @@ void SevenCircles2::coverPoint(Point point, DelunayTriangulation &delunayTriangu
 	for (Point point : newPoints) {
 		Node node = {point, false};
 
-		if (center)
+		if (center){
 			node = {point, true};
+			center = false;
+		}
 		
-		hashTable.emplace(node);
+		hashTable.emplace(node, node);
 		delunayTriangulation.insert(point);
-		center = false;
 	}
 }

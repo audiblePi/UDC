@@ -45,7 +45,7 @@ class SevenCircles2
         SevenCircles2(vector<Point> &P, vector<Point> &C);
 
         Point findClosestNeighbor(Point &testPoint, vector<Point> &coveredPoints);
-        void coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_set<Node, Node_hash, Compare_node> &hashTable);
+        void coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_map<Node, Node, Node_hash, Compare_node> &hashTable);
         //void searchPoint(node closestNeighborNode, vector<node> &allCircles);
 };
 

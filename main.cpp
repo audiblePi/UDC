@@ -105,7 +105,7 @@ int main() {
         cin >> osPrinter;
     }
 
-//    run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, osPrinter, "Centers");
+    //run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, osPrinter, "Centers");
     run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, osPrinter, "Grids");
     run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, osPrinter, "BiniazEtAls");
     run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, osPrinter, "LRUDC");
