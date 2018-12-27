@@ -6,6 +6,11 @@ file(REMOVE_RECURSE
   "CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o"
   "CMakeFiles/executable.dir/src/LRUDC.cpp.o"
   "CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o"
+  "CMakeFiles/executable.dir/src/LiuLu.cpp.o"
+  "CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o"
+  "CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o"
+  "CMakeFiles/executable.dir/src/SevenCircles.cpp.o"
+  "CMakeFiles/executable.dir/src/SevenCircles2.cpp.o"
   "executable.pdb"
   "executable"
 )

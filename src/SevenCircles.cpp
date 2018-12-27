@@ -35,8 +35,9 @@ SevenCircles::SevenCircles(vector<Point> &Points, vector<Point> &unitDiskCenters
 	   		else{
                 Vertex_handle closestNeighbor2 = dT.nearest_vertex(point);
                 int distance = squared_distance(point, closestNeighbor2->point());
-                unitDiskCenters.push_back(closestNeighbor2->point());
-                delunayTriangulation.push_back(closestNeighbor2->point());
+
+	            unitDiskCenters.push_back(closestNeighbor2->point());
+    	        delunayTriangulation.push_back(closestNeighbor2->point());
 	   		}
 	   	}
     }

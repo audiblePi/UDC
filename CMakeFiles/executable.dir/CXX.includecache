@@ -6,21 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/main.cpp
-UnitDiskCoverPrinter.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverPrinter.h
-UnitDiskCoverCenters.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverCenters.h
-UnitDiskCoverUnitGrid.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverUnitGrid.h
-BiniazEtAls.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/BiniazEtAls.h
-LRUDC.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/LRUDC.h
-LRUDC_Shift.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/LRUDC_Shift.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.cpp
+SevenCircles.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.h
 CgalComponents.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CgalComponents.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/CgalComponents.h
+math.h
+-
+
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.cpp
+SevenCircles2.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.h
+CgalComponents.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/CgalComponents.h
+math.h
+-
 
 /usr/local/include/CGAL/Aff_transformation_2.h
 CGAL/config.h
@@ -26744,10 +26744,6 @@ memory
 utility
 -
 
-include/BiniazEtAls.h
-CgalComponents.h
-include/CgalComponents.h
-
 include/CgalComponents.h
 vector
 -
@@ -26774,25 +26770,11 @@ CGAL/Exact_predicates_inexact_constructions_kernel.h
 CGAL/Delaunay_triangulation_2.h
 -
 
-include/LRUDC.h
+include/SevenCircles.h
 CgalComponents.h
 include/CgalComponents.h
 
-include/LRUDC_Shift.h
-CgalComponents.h
-include/CgalComponents.h
-
-include/UnitDiskCoverCenters.h
-CgalComponents.h
-include/CgalComponents.h
-
-include/UnitDiskCoverPrinter.h
-CgalComponents.h
-include/CgalComponents.h
-vector
--
-
-include/UnitDiskCoverUnitGrid.h
+include/SevenCircles2.h
 CgalComponents.h
 include/CgalComponents.h
 

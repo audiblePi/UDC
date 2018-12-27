@@ -606,6 +606,141 @@ src/LRUDC_Shift.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s
 .PHONY : src/LRUDC_Shift.cpp.s
 
+src/LinesAlgorithm.o: src/LinesAlgorithm.cpp.o
+
+.PHONY : src/LinesAlgorithm.o
+
+# target to build an object file
+src/LinesAlgorithm.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o
+.PHONY : src/LinesAlgorithm.cpp.o
+
+src/LinesAlgorithm.i: src/LinesAlgorithm.cpp.i
+
+.PHONY : src/LinesAlgorithm.i
+
+# target to preprocess a source file
+src/LinesAlgorithm.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.i
+.PHONY : src/LinesAlgorithm.cpp.i
+
+src/LinesAlgorithm.s: src/LinesAlgorithm.cpp.s
+
+.PHONY : src/LinesAlgorithm.s
+
+# target to generate assembly for a file
+src/LinesAlgorithm.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.s
+.PHONY : src/LinesAlgorithm.cpp.s
+
+src/LinesAlgorithm_Shift.o: src/LinesAlgorithm_Shift.cpp.o
+
+.PHONY : src/LinesAlgorithm_Shift.o
+
+# target to build an object file
+src/LinesAlgorithm_Shift.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o
+.PHONY : src/LinesAlgorithm_Shift.cpp.o
+
+src/LinesAlgorithm_Shift.i: src/LinesAlgorithm_Shift.cpp.i
+
+.PHONY : src/LinesAlgorithm_Shift.i
+
+# target to preprocess a source file
+src/LinesAlgorithm_Shift.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.i
+.PHONY : src/LinesAlgorithm_Shift.cpp.i
+
+src/LinesAlgorithm_Shift.s: src/LinesAlgorithm_Shift.cpp.s
+
+.PHONY : src/LinesAlgorithm_Shift.s
+
+# target to generate assembly for a file
+src/LinesAlgorithm_Shift.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.s
+.PHONY : src/LinesAlgorithm_Shift.cpp.s
+
+src/LiuLu.o: src/LiuLu.cpp.o
+
+.PHONY : src/LiuLu.o
+
+# target to build an object file
+src/LiuLu.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LiuLu.cpp.o
+.PHONY : src/LiuLu.cpp.o
+
+src/LiuLu.i: src/LiuLu.cpp.i
+
+.PHONY : src/LiuLu.i
+
+# target to preprocess a source file
+src/LiuLu.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LiuLu.cpp.i
+.PHONY : src/LiuLu.cpp.i
+
+src/LiuLu.s: src/LiuLu.cpp.s
+
+.PHONY : src/LiuLu.s
+
+# target to generate assembly for a file
+src/LiuLu.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/LiuLu.cpp.s
+.PHONY : src/LiuLu.cpp.s
+
+src/SevenCircles.o: src/SevenCircles.cpp.o
+
+.PHONY : src/SevenCircles.o
+
+# target to build an object file
+src/SevenCircles.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles.cpp.o
+.PHONY : src/SevenCircles.cpp.o
+
+src/SevenCircles.i: src/SevenCircles.cpp.i
+
+.PHONY : src/SevenCircles.i
+
+# target to preprocess a source file
+src/SevenCircles.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles.cpp.i
+.PHONY : src/SevenCircles.cpp.i
+
+src/SevenCircles.s: src/SevenCircles.cpp.s
+
+.PHONY : src/SevenCircles.s
+
+# target to generate assembly for a file
+src/SevenCircles.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles.cpp.s
+.PHONY : src/SevenCircles.cpp.s
+
+src/SevenCircles2.o: src/SevenCircles2.cpp.o
+
+.PHONY : src/SevenCircles2.o
+
+# target to build an object file
+src/SevenCircles2.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles2.cpp.o
+.PHONY : src/SevenCircles2.cpp.o
+
+src/SevenCircles2.i: src/SevenCircles2.cpp.i
+
+.PHONY : src/SevenCircles2.i
+
+# target to preprocess a source file
+src/SevenCircles2.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles2.cpp.i
+.PHONY : src/SevenCircles2.cpp.i
+
+src/SevenCircles2.s: src/SevenCircles2.cpp.s
+
+.PHONY : src/SevenCircles2.s
+
+# target to generate assembly for a file
+src/SevenCircles2.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles2.cpp.s
+.PHONY : src/SevenCircles2.cpp.s
+
 src/UnitDiskCoverCenters.o: src/UnitDiskCoverCenters.cpp.o
 
 .PHONY : src/UnitDiskCoverCenters.o
@@ -737,6 +872,21 @@ help:
 	@echo "... src/LRUDC_Shift.o"
 	@echo "... src/LRUDC_Shift.i"
 	@echo "... src/LRUDC_Shift.s"
+	@echo "... src/LinesAlgorithm.o"
+	@echo "... src/LinesAlgorithm.i"
+	@echo "... src/LinesAlgorithm.s"
+	@echo "... src/LinesAlgorithm_Shift.o"
+	@echo "... src/LinesAlgorithm_Shift.i"
+	@echo "... src/LinesAlgorithm_Shift.s"
+	@echo "... src/LiuLu.o"
+	@echo "... src/LiuLu.i"
+	@echo "... src/LiuLu.s"
+	@echo "... src/SevenCircles.o"
+	@echo "... src/SevenCircles.i"
+	@echo "... src/SevenCircles.s"
+	@echo "... src/SevenCircles2.o"
+	@echo "... src/SevenCircles2.i"
+	@echo "... src/SevenCircles2.s"
 	@echo "... src/UnitDiskCoverCenters.o"
 	@echo "... src/UnitDiskCoverCenters.i"
 	@echo "... src/UnitDiskCoverCenters.s"

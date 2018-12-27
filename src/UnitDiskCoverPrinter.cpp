@@ -29,7 +29,7 @@ void UnitDiskCoverPrinter::displayPDF() {
     fprintf(fp,"\n\n\\end{document}");
     fclose(fp);
 
-    cout << "\nOutput PDF generation started...\n";
+    cout << "Output PDF generation started...\n";
     string command = "pdflatex " + fName + " > /dev/null";
     system(command.c_str());
     cout << "PDF generation terminated...\n";

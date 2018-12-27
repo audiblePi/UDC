@@ -49,6 +49,11 @@ add_executable(
 	src/BiniazEtAls.cpp
 	src/LRUDC.cpp
 	src/LRUDC_Shift.cpp
+	src/LiuLu.cpp
+	src/LinesAlgorithm.cpp
+	src/LinesAlgorithm_Shift.cpp
+	src/SevenCircles.cpp
+	src/SevenCircles2.cpp
 )
 
 add_to_cached_list( CGAL_EXECUTABLE_TARGETS executable )
