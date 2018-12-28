@@ -3,36 +3,18 @@
 
 #include "CgalComponents.h"
 
-struct Node{
-    Point p;
-    bool active;
-};
-
-struct Node_hash {
-    inline size_t operator()(const Node &n) const {
-        // cout << endl << "hash: " << (n.p.x()*31+n.p.y()) * 1000 << endl;
-        // return (n.p.x()*31+n.p.y()) * 1000;
-
-        size_t h1 = std::hash<double>()(n.p.x());
-        size_t h2 = std::hash<double>()(n.p.y());
+struct Point_hasher {
+    inline size_t operator()(const Point &p) const {
+        size_t h1 = std::hash<double>()(p.x());
+        size_t h2 = std::hash<double>()(p.y());
 
         return h1 ^ h2;
     }
 };
 
-// struct Compare_node{
-// 	bool operator()(const Node & n1, const Node & n2) const {
-// 		if (n1.p.x() == n2.p.x()){
-// 	    	return (n1.p.y() < n2.p.y());
-// 	    } else {
-// 		    return (n1.p.x() < n2.p.x());
-// 		}
-// 	}
-// };
-
-struct Compare_node{
-	bool operator() (const Node & n1, const Node & n2) const {
-		if (n1.p.x() == n2.p.x() && n1.p.y() == n2.p.y())
+struct Point_equal {
+	bool operator() (const Point & p1, const Point & p2) const {
+		if (p1.x() == p2.x() && p1.y() == p2.y())
 	    	return true;
         else 
 		    return false;
@@ -45,8 +27,34 @@ class SevenCircles2
         SevenCircles2(vector<Point> &P, vector<Point> &C);
 
         Point findClosestNeighbor(Point &testPoint, vector<Point> &coveredPoints);
-        void coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_map<Node, Node, Node_hash, Compare_node> &hashTable);
-        //void searchPoint(node closestNeighborNode, vector<node> &allCircles);
+        void coverPoint(Point point, DelunayTriangulation &delunayTriangulation, unordered_map<Point, bool, Point_hasher, Point_equal> &hashTable);
 };
+
+// struct Point_hasher {
+//     inline size_t operator()(const Point &p) const {
+//         size_t h1 = std::hash<double>()(p.x());
+//         size_t h2 = std::hash<double>()(p.y());
+
+//         return h1 ^ h2;
+//     }
+// };
+
+// struct Point_equal {
+// 	bool operator() (const Point & p1, const Point & p2) const {
+// 		if (p1.x() == p2.x() && p1.y() == p2.y())
+// 	    	return true;
+//         else 
+// 		    return false;
+// 	}
+// };
+
+// class SevenCircles2
+// {
+//     public:
+//         SevenCircles2(vector<Point> &P, vector<Point> &C);
+
+//         Point findClosestNeighbor(Point &testPoint, vector<Point> &coveredPoints);
+//         bool coverPoint(Point center, Point point, vector<Point> &unitDiscCenters, DelunayTriangulation &delunayTriangulationExternals, unordered_map<Point, bool, Point_hasher, Point_equal> &hashTable);
+// };
 
 #endif // SEVENCIRCLES2_H
