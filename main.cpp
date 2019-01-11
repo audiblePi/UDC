@@ -9,6 +9,7 @@
 #include "LiuLu.h"
 #include "SevenCircles.h"
 #include "SevenCircles2.h"
+#include "SevenCirclesSpatial.h"
 #include "CgalComponents.h"
 
 template<class Algorithm>
@@ -106,15 +107,16 @@ int main() {
     }
 
     //run<UnitDiskCoverCenters>(points, centersOfPlacedDisks, "output_centers", showOutput, osPrinter, "Centers");
-    run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, osPrinter, "Grids");
-    run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, osPrinter, "BiniazEtAls");
-    run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, osPrinter, "LRUDC");
-    run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, osPrinter, "LRUDC_Shift");
+    //run<UnitDiskCoverUnitGrid>(points, centersOfPlacedDisks, "output_grid", showOutput, osPrinter, "Grids");
+    //run<BiniazEtAls>(points, centersOfPlacedDisks, "output_biniaz", showOutput, osPrinter, "BiniazEtAls");
+    //run<LRUDC>(points, centersOfPlacedDisks, "output_lrudc", showOutput, osPrinter, "LRUDC");
+    //run<LRUDC_Shift>(points, centersOfPlacedDisks, "output_lrudc_shift", showOutput, osPrinter, "LRUDC_Shift");
     //run<LinesAlgorithm>(points, centersOfPlacedDisks, "output_linesalgorithm", showOutput, osPrinter, "LinesAlgorithm");
     //run<LinesAlgorithm_Shift>(points, centersOfPlacedDisks, "output_linesalgorithm_shift", showOutput, osPrinter, "LinesAlgorithm_Shift");
-    run<LiuLu>(points, centersOfPlacedDisks, "output_liulu", showOutput, osPrinter, "LiuLu");
-    run<SevenCircles>(points, centersOfPlacedDisks, "output_sevencircles", showOutput, osPrinter, "SevenCircles");
+    //run<LiuLu>(points, centersOfPlacedDisks, "output_liulu", showOutput, osPrinter, "LiuLu");
+    //run<SevenCircles>(points, centersOfPlacedDisks, "output_sevencircles", showOutput, osPrinter, "SevenCircles");
     run<SevenCircles2>(points, centersOfPlacedDisks, "output_sevencircles2", showOutput, osPrinter, "SevenCircles2");
+    run<SevenCirclesSpatial>(points, centersOfPlacedDisks, "output_sevencircles_spatial", showOutput, osPrinter, "SevenCirclesSpatial");
 
     return EXIT_SUCCESS;
 }

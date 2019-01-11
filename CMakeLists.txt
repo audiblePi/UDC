@@ -54,6 +54,7 @@ add_executable(
 	src/LinesAlgorithm_Shift.cpp
 	src/SevenCircles.cpp
 	src/SevenCircles2.cpp
+	src/SevenCirclesSpatial.cpp
 )
 
 add_to_cached_list( CGAL_EXECUTABLE_TARGETS executable )

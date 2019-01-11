@@ -741,6 +741,33 @@ src/SevenCircles2.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCircles2.cpp.s
 .PHONY : src/SevenCircles2.cpp.s
 
+src/SevenCirclesSpatial.o: src/SevenCirclesSpatial.cpp.o
+
+.PHONY : src/SevenCirclesSpatial.o
+
+# target to build an object file
+src/SevenCirclesSpatial.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o
+.PHONY : src/SevenCirclesSpatial.cpp.o
+
+src/SevenCirclesSpatial.i: src/SevenCirclesSpatial.cpp.i
+
+.PHONY : src/SevenCirclesSpatial.i
+
+# target to preprocess a source file
+src/SevenCirclesSpatial.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.i
+.PHONY : src/SevenCirclesSpatial.cpp.i
+
+src/SevenCirclesSpatial.s: src/SevenCirclesSpatial.cpp.s
+
+.PHONY : src/SevenCirclesSpatial.s
+
+# target to generate assembly for a file
+src/SevenCirclesSpatial.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.s
+.PHONY : src/SevenCirclesSpatial.cpp.s
+
 src/UnitDiskCoverCenters.o: src/UnitDiskCoverCenters.cpp.o
 
 .PHONY : src/UnitDiskCoverCenters.o
@@ -887,6 +914,9 @@ help:
 	@echo "... src/SevenCircles2.o"
 	@echo "... src/SevenCircles2.i"
 	@echo "... src/SevenCircles2.s"
+	@echo "... src/SevenCirclesSpatial.o"
+	@echo "... src/SevenCirclesSpatial.i"
+	@echo "... src/SevenCirclesSpatial.s"
 	@echo "... src/UnitDiskCoverCenters.o"
 	@echo "... src/UnitDiskCoverCenters.i"
 	@echo "... src/UnitDiskCoverCenters.s"

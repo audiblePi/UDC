@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o"
   "CMakeFiles/executable.dir/src/SevenCircles.cpp.o"
   "CMakeFiles/executable.dir/src/SevenCircles2.cpp.o"
+  "CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o"
   "executable.pdb"
   "executable"
 )
