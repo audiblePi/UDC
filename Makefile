@@ -795,6 +795,60 @@ src/UnitDiskCoverCenters.cpp.s:
 	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.s
 .PHONY : src/UnitDiskCoverCenters.cpp.s
 
+src/UnitDiskCoverCentersSpatial.o: src/UnitDiskCoverCentersSpatial.cpp.o
+
+.PHONY : src/UnitDiskCoverCentersSpatial.o
+
+# target to build an object file
+src/UnitDiskCoverCentersSpatial.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o
+.PHONY : src/UnitDiskCoverCentersSpatial.cpp.o
+
+src/UnitDiskCoverCentersSpatial.i: src/UnitDiskCoverCentersSpatial.cpp.i
+
+.PHONY : src/UnitDiskCoverCentersSpatial.i
+
+# target to preprocess a source file
+src/UnitDiskCoverCentersSpatial.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.i
+.PHONY : src/UnitDiskCoverCentersSpatial.cpp.i
+
+src/UnitDiskCoverCentersSpatial.s: src/UnitDiskCoverCentersSpatial.cpp.s
+
+.PHONY : src/UnitDiskCoverCentersSpatial.s
+
+# target to generate assembly for a file
+src/UnitDiskCoverCentersSpatial.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.s
+.PHONY : src/UnitDiskCoverCentersSpatial.cpp.s
+
+src/UnitDiskCoverExperimental.o: src/UnitDiskCoverExperimental.cpp.o
+
+.PHONY : src/UnitDiskCoverExperimental.o
+
+# target to build an object file
+src/UnitDiskCoverExperimental.cpp.o:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o
+.PHONY : src/UnitDiskCoverExperimental.cpp.o
+
+src/UnitDiskCoverExperimental.i: src/UnitDiskCoverExperimental.cpp.i
+
+.PHONY : src/UnitDiskCoverExperimental.i
+
+# target to preprocess a source file
+src/UnitDiskCoverExperimental.cpp.i:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.i
+.PHONY : src/UnitDiskCoverExperimental.cpp.i
+
+src/UnitDiskCoverExperimental.s: src/UnitDiskCoverExperimental.cpp.s
+
+.PHONY : src/UnitDiskCoverExperimental.s
+
+# target to generate assembly for a file
+src/UnitDiskCoverExperimental.cpp.s:
+	$(MAKE) -f CMakeFiles/executable.dir/build.make CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.s
+.PHONY : src/UnitDiskCoverExperimental.cpp.s
+
 src/UnitDiskCoverPrinter.o: src/UnitDiskCoverPrinter.cpp.o
 
 .PHONY : src/UnitDiskCoverPrinter.o
@@ -920,6 +974,12 @@ help:
 	@echo "... src/UnitDiskCoverCenters.o"
 	@echo "... src/UnitDiskCoverCenters.i"
 	@echo "... src/UnitDiskCoverCenters.s"
+	@echo "... src/UnitDiskCoverCentersSpatial.o"
+	@echo "... src/UnitDiskCoverCentersSpatial.i"
+	@echo "... src/UnitDiskCoverCentersSpatial.s"
+	@echo "... src/UnitDiskCoverExperimental.o"
+	@echo "... src/UnitDiskCoverExperimental.i"
+	@echo "... src/UnitDiskCoverExperimental.s"
 	@echo "... src/UnitDiskCoverPrinter.o"
 	@echo "... src/UnitDiskCoverPrinter.i"
 	@echo "... src/UnitDiskCoverPrinter.s"

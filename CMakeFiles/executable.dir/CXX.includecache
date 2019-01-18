@@ -11,8 +11,12 @@ UnitDiskCoverPrinter.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverPrinter.h
 UnitDiskCoverCenters.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverCenters.h
+UnitDiskCoverCentersSpatial.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverCentersSpatial.h
 UnitDiskCoverUnitGrid.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverUnitGrid.h
+UnitDiskCoverExperimental.h
+/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/UnitDiskCoverExperimental.h
 BiniazEtAls.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/BiniazEtAls.h
 LRUDC.h
@@ -33,14 +37,6 @@ SevenCirclesSpatial.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/SevenCirclesSpatial.h
 CgalComponents.h
 /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CgalComponents.h
-
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCirclesSpatial.cpp
-SevenCirclesSpatial.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCirclesSpatial.h
-CgalComponents.h
-/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/CgalComponents.h
-math.h
--
 
 /usr/local/include/CGAL/Aff_transformation_2.h
 CGAL/config.h
@@ -28251,6 +28247,14 @@ CgalComponents.h
 include/CgalComponents.h
 
 include/UnitDiskCoverCenters.h
+CgalComponents.h
+include/CgalComponents.h
+
+include/UnitDiskCoverCentersSpatial.h
+CgalComponents.h
+include/CgalComponents.h
+
+include/UnitDiskCoverExperimental.h
 CgalComponents.h
 include/CgalComponents.h
 

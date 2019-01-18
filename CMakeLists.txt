@@ -55,6 +55,8 @@ add_executable(
 	src/SevenCircles.cpp
 	src/SevenCircles2.cpp
 	src/SevenCirclesSpatial.cpp
+	src/UnitDiskCoverCentersSpatial.cpp
+	src/UnitDiskCoverExperimental.cpp
 )
 
 add_to_cached_list( CGAL_EXECUTABLE_TARGETS executable )

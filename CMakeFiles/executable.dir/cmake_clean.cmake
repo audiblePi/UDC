@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/executable.dir/src/SevenCircles.cpp.o"
   "CMakeFiles/executable.dir/src/SevenCircles2.cpp.o"
   "CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o"
+  "CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o"
+  "CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o"
   "executable.pdb"
   "executable"
 )

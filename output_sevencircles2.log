@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  27 DEC 2018 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  17 JAN 2019 23:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -449,15 +449,15 @@ e
 
 ] (./output_sevencircles2.aux) ) 
 Here is how much of TeX's memory you used:
- 11850 strings out of 492649
- 243300 string characters out of 6129622
- 342400 words of memory out of 5000000
- 15525 multiletter control sequences out of 15000+600000
+ 11839 strings out of 492649
+ 243066 string characters out of 6129622
+ 342388 words of memory out of 5000000
+ 15514 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,5n,56p,401b,374s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on output_sevencircles2.pdf (1 page, 19343 bytes).
+Output written on output_sevencircles2.pdf (1 page, 19335 bytes).
 PDF statistics:
  11 PDF objects out of 1000 (max. 8388607)
  7 compressed objects within 1 object stream
