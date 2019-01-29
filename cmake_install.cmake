@@ -1,4 +1,4 @@
-# Install script for directory: /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+# Install script for directory: /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

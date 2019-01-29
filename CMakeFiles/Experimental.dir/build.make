@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+CMAKE_SOURCE_DIR = /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+CMAKE_BINARY_DIR = /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # Utility rule file for Experimental.
 
@@ -71,6 +71,6 @@ CMakeFiles/Experimental.dir/clean:
 .PHONY : CMakeFiles/Experimental.dir/clean
 
 CMakeFiles/Experimental.dir/depend:
-	cd /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles/Experimental.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Experimental.dir/depend
 

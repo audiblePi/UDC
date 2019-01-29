@@ -43,10 +43,10 @@ RM = /Applications/CMake.app/Contents/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+CMAKE_SOURCE_DIR = /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+CMAKE_BINARY_DIR = /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # Include any dependencies generated for this target.
 include CMakeFiles/executable.dir/depend.make
@@ -59,198 +59,198 @@ include CMakeFiles/executable.dir/flags.make
 
 CMakeFiles/executable.dir/main.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/main.cpp.o: main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/executable.dir/main.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/main.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/executable.dir/main.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/main.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/main.cpp
 
 CMakeFiles/executable.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/main.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/main.cpp > CMakeFiles/executable.dir/main.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/main.cpp > CMakeFiles/executable.dir/main.cpp.i
 
 CMakeFiles/executable.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/main.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/main.cpp -o CMakeFiles/executable.dir/main.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/main.cpp -o CMakeFiles/executable.dir/main.cpp.s
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o: src/UnitDiskCoverCenters.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCenters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCenters.cpp
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCenters.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCenters.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.i
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCenters.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCenters.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverCenters.cpp.s
 
 CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o: src/UnitDiskCoverPrinter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverPrinter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverPrinter.cpp
 
 CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverPrinter.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverPrinter.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.i
 
 CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverPrinter.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverPrinter.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverPrinter.cpp.s
 
 CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o: src/UnitDiskCoverUnitGrid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverUnitGrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverUnitGrid.cpp
 
 CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverUnitGrid.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverUnitGrid.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.i
 
 CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverUnitGrid.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverUnitGrid.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverUnitGrid.cpp.s
 
 CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o: src/BiniazEtAls.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/BiniazEtAls.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/BiniazEtAls.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/BiniazEtAls.cpp
 
 CMakeFiles/executable.dir/src/BiniazEtAls.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/BiniazEtAls.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/BiniazEtAls.cpp > CMakeFiles/executable.dir/src/BiniazEtAls.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/BiniazEtAls.cpp > CMakeFiles/executable.dir/src/BiniazEtAls.cpp.i
 
 CMakeFiles/executable.dir/src/BiniazEtAls.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/BiniazEtAls.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/BiniazEtAls.cpp -o CMakeFiles/executable.dir/src/BiniazEtAls.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/BiniazEtAls.cpp -o CMakeFiles/executable.dir/src/BiniazEtAls.cpp.s
 
 CMakeFiles/executable.dir/src/LRUDC.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/LRUDC.cpp.o: src/LRUDC.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/executable.dir/src/LRUDC.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LRUDC.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/executable.dir/src/LRUDC.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LRUDC.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC.cpp
 
 CMakeFiles/executable.dir/src/LRUDC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/LRUDC.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC.cpp > CMakeFiles/executable.dir/src/LRUDC.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC.cpp > CMakeFiles/executable.dir/src/LRUDC.cpp.i
 
 CMakeFiles/executable.dir/src/LRUDC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/LRUDC.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC.cpp -o CMakeFiles/executable.dir/src/LRUDC.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC.cpp -o CMakeFiles/executable.dir/src/LRUDC.cpp.s
 
 CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o: src/LRUDC_Shift.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC_Shift.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC_Shift.cpp
 
 CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC_Shift.cpp > CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC_Shift.cpp > CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.i
 
 CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LRUDC_Shift.cpp -o CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LRUDC_Shift.cpp -o CMakeFiles/executable.dir/src/LRUDC_Shift.cpp.s
 
 CMakeFiles/executable.dir/src/LiuLu.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/LiuLu.cpp.o: src/LiuLu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/executable.dir/src/LiuLu.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LiuLu.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LiuLu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/executable.dir/src/LiuLu.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LiuLu.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LiuLu.cpp
 
 CMakeFiles/executable.dir/src/LiuLu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/LiuLu.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LiuLu.cpp > CMakeFiles/executable.dir/src/LiuLu.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LiuLu.cpp > CMakeFiles/executable.dir/src/LiuLu.cpp.i
 
 CMakeFiles/executable.dir/src/LiuLu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/LiuLu.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LiuLu.cpp -o CMakeFiles/executable.dir/src/LiuLu.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LiuLu.cpp -o CMakeFiles/executable.dir/src/LiuLu.cpp.s
 
 CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o: src/LinesAlgorithm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm.cpp
 
 CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm.cpp > CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm.cpp > CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.i
 
 CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm.cpp -o CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm.cpp -o CMakeFiles/executable.dir/src/LinesAlgorithm.cpp.s
 
 CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o: src/LinesAlgorithm_Shift.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm_Shift.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm_Shift.cpp
 
 CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm_Shift.cpp > CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm_Shift.cpp > CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.i
 
 CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/LinesAlgorithm_Shift.cpp -o CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/LinesAlgorithm_Shift.cpp -o CMakeFiles/executable.dir/src/LinesAlgorithm_Shift.cpp.s
 
 CMakeFiles/executable.dir/src/SevenCircles.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/SevenCircles.cpp.o: src/SevenCircles.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/executable.dir/src/SevenCircles.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCircles.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/executable.dir/src/SevenCircles.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCircles.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles.cpp
 
 CMakeFiles/executable.dir/src/SevenCircles.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/SevenCircles.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.cpp > CMakeFiles/executable.dir/src/SevenCircles.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles.cpp > CMakeFiles/executable.dir/src/SevenCircles.cpp.i
 
 CMakeFiles/executable.dir/src/SevenCircles.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/SevenCircles.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles.cpp -o CMakeFiles/executable.dir/src/SevenCircles.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles.cpp -o CMakeFiles/executable.dir/src/SevenCircles.cpp.s
 
 CMakeFiles/executable.dir/src/SevenCircles2.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/SevenCircles2.cpp.o: src/SevenCircles2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/executable.dir/src/SevenCircles2.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCircles2.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/executable.dir/src/SevenCircles2.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCircles2.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles2.cpp
 
 CMakeFiles/executable.dir/src/SevenCircles2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/SevenCircles2.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.cpp > CMakeFiles/executable.dir/src/SevenCircles2.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles2.cpp > CMakeFiles/executable.dir/src/SevenCircles2.cpp.i
 
 CMakeFiles/executable.dir/src/SevenCircles2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/SevenCircles2.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCircles2.cpp -o CMakeFiles/executable.dir/src/SevenCircles2.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCircles2.cpp -o CMakeFiles/executable.dir/src/SevenCircles2.cpp.s
 
 CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o: src/SevenCirclesSpatial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCirclesSpatial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCirclesSpatial.cpp
 
 CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCirclesSpatial.cpp > CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCirclesSpatial.cpp > CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.i
 
 CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/SevenCirclesSpatial.cpp -o CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/SevenCirclesSpatial.cpp -o CMakeFiles/executable.dir/src/SevenCirclesSpatial.cpp.s
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o: src/UnitDiskCoverCentersSpatial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCentersSpatial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCentersSpatial.cpp
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCentersSpatial.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCentersSpatial.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.i
 
 CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverCentersSpatial.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverCentersSpatial.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverCentersSpatial.cpp.s
 
 CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o: CMakeFiles/executable.dir/flags.make
 CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o: src/UnitDiskCoverExperimental.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o"
-	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o -c /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverExperimental.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o"
+	/usr/local/bin/g++-8  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.o -c /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverExperimental.cpp
 
 CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.i"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverExperimental.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.i
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverExperimental.cpp > CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.i
 
 CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.s"
-	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/src/UnitDiskCoverExperimental.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.s
+	/usr/local/bin/g++-8 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/src/UnitDiskCoverExperimental.cpp -o CMakeFiles/executable.dir/src/UnitDiskCoverExperimental.cpp.s
 
 # Object files for target executable
 executable_OBJECTS = \
@@ -300,7 +300,7 @@ executable: /usr/local/lib/libboost_chrono-mt.dylib
 executable: /usr/local/lib/libboost_date_time-mt.dylib
 executable: /usr/local/lib/libboost_atomic-mt.dylib
 executable: CMakeFiles/executable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable executable"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable executable"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/executable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -313,6 +313,6 @@ CMakeFiles/executable.dir/clean:
 .PHONY : CMakeFiles/executable.dir/clean
 
 CMakeFiles/executable.dir/depend:
-	cd /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/CMakeFiles/executable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/CMakeFiles/executable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/executable.dir/depend
 

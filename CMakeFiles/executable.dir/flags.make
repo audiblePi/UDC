@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -Wall -pedantic -fexceptions -frounding-math -std=c++17
 
 CXX_DEFINES = -DCGAL_USE_GMP -DCGAL_USE_MPFR
 
-CXX_INCLUDES = -I/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover/include -I/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover -isystem /usr/local/include -isystem /Users/newowner/CGAL-4.12.1/include 
+CXX_INCLUDES = -I/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev/include -I/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev -isystem /usr/local/include -isystem /Users/newowner/CGAL-4.12.1/include 
 

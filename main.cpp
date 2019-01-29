@@ -54,7 +54,7 @@ void run(vector<Point>& points, vector<Point>& centers, string filename, bool sh
 void loadFromFile(vector<Point> &points){
     int count = 0;
     int menuChoice;
-    double a, b;
+    double a, b, c;
     string fileName;
 
     ifstream inFile, runFile;
@@ -72,25 +72,25 @@ void loadFromFile(vector<Point> &points){
 
     switch(menuChoice){
         case 1 :
-            fileName = "world.txt";
+            fileName = "data/world.txt";
             break;
         case 2 :
-            fileName = "usa.txt";
+            fileName = "data/usa.txt";
             break;           
         case 3 :
-            fileName = "places.txt";
+            fileName = "data/places.txt";
             break;
         case 4 :
-            fileName = "metro_areas.txt";
+            fileName = "data/metro_areas.txt";
             break;
         case 5 :
-            fileName = "meteorite_landings.txt";
+            fileName = "data/meteorite_landings.txt";
             break;
         case 6 :
-            fileName = "locations.txt";
+            fileName = "data/locations.txt";
             break;
         case 7 :
-            fileName = "open_street_map.txt";
+            fileName = "/Volumes/bHd/simple-gps-points-120312.txt";
             break;
         default :
             return;
@@ -98,9 +98,9 @@ void loadFromFile(vector<Point> &points){
 
     cout << fileName;
 
-    inFile.open("data/" + fileName);
+    inFile.open(fileName);
     if (!inFile) {
-        cout << "Unable to open file data/" + fileName;
+        cout << "Unable to open file " + fileName;
         exit(1); // terminate with error
     }
 
@@ -112,21 +112,22 @@ void loadFromFile(vector<Point> &points){
 
     points.reserve(count);
 
-    inFile.open("data/" + fileName);
+    inFile.open(fileName);
     if (!inFile) {
-        cout << "Unable to open file data/" + fileName;
+        cout << "Unable to open file " + fileName;
         exit(1); // terminate with error
     }
 
-    while (inFile >> a >> b) {
-        //cout << "Line = " << a << ", " << b << endl;
-        Point p(a, b);
-        points.push_back(p);
+    while (inFile >> a >> b >> c) {
+        cout << "Line = " << a << " : " << b << " : " <<  c << endl;
+        // Point p(a, b);
+        // points.push_back(p);
     }
 
     inFile.close();
 
-    // ofstream newfile ("world-new.txt");
+    // string simple = "/Volumes/bHd/simple-gps-points-120312.txt"
+    // ofstream newfile ("/Volumes/bHd/gps-processed.txt");
     // if (newfile.is_open())
     // {
     //     for (Point p : points){

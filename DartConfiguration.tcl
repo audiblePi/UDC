@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
-BuildDirectory: /Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover
+SourceDirectory: /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
+BuildDirectory: /Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev
 
 # Where to place the cost data store
 CostDataFile: 
@@ -36,7 +36,7 @@ ScpCommand: /usr/bin/scp
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/newowner/workspace/_computational_geometry/CGAL/BiniazEtAl/UnitDiskCover"
+ConfigureCommand: "/Applications/CMake.app/Contents/bin/cmake" "/Users/newowner/workspace/_computational_geometry/UnitDiskCover_dev"
 MakeCommand: /Applications/CMake.app/Contents/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}" -- -i
 DefaultCTestConfigurationType: Release
 
