@@ -28,6 +28,12 @@ https://www.kaggle.com/noaa/severe-weather-data-inventory
 
 ## locations
 
+## measurements (29,015,369)
+
+Safecast Radiation Measurements around the globe
+
+https://www.kaggle.com/safecast/safecast/home
+
 ## meteorite_landings
 
 ## metro_areas
@@ -59,7 +65,11 @@ https://www.kaggle.com/wikunia/nyc-taxis-combined-with-dimacs/version/3?
 
 ## places
 
-## uber
+## uber (4,534,328)
+
+Uber pickups in New York City from April to September 2014
+
+https://www.kaggle.com/fivethirtyeight/uber-pickups-in-new-york-city
 
 ## us_wildfires (1,880,466)
 
