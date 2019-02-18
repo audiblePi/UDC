@@ -26,7 +26,7 @@ Severe Weather Data Inventory
 
 https://www.kaggle.com/noaa/severe-weather-data-inventory
 
-## locations
+## locations (266)
 
 NYSNet is a spatial reference network of continuously operating Global Positioning System (GPS) reference stations (CORS) throughout New York State. 
 
@@ -38,13 +38,13 @@ Safecast Radiation Measurements around the globe
 
 https://www.kaggle.com/safecast/safecast/home
 
-## meteorite_landings
+## meteorite_landings (17,099)
 
 This comprehensive data set from The Meteoritical Society contains information on all of the known meteorite landings.
 
 https://data.nasa.gov/Space-Science/Meteorite-Landings/gh4g-9sfh
 
-## metro_areas
+## metro_areas (3,599)
 
 2015 U.S. Gazetteer Census Files
 
@@ -74,7 +74,7 @@ NYC Taxis combined with DIMACS (Drop-offs and Pick-ups)
 
 https://www.kaggle.com/wikunia/nyc-taxis-combined-with-dimacs/version/3?
 
-## places
+## places (29,575)
 
 2015 U.S. Gazetteer Census Files
 
